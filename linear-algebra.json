@@ -1,0 +1,246 @@
+{
+  "name": "Themes",
+  "type": "theme",
+  "themes": [
+    {
+      "title": "Матрицы и операции над ними",
+      "id": "50d6cdc3-9a9c-4b2b-bcff-da214e5e9a72",
+      "subtopic": [
+        {
+          "nameTopic": "Сумма матриц",
+          "id": "c4703c4b-e322-4b5c-7c6c-d1652ce84bd8",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Произведение матрицы 3х3 на число",
+          "id": "028c1f3c-e728-46a1-3d3f-d037aa1c813d",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Размер матрицы",
+          "id": "77d65971-cc85-4455-0723-1f21a82b88f1",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Элемент матрицы",
+          "id": "b22fae57-4b10-4d50-740a-06956656bef1",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Транспонирование",
+          "id": "0c2f20c6-9191-41da-14e7-5e858bbb7fd7",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Произведение двух матриц (3х3)",
+          "id": "4f6241db-b8b2-4cf0-182b-9d468f0a2d83",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Определители",
+      "id": "a389ef60-da6e-4fc8-f267-651163445f11",
+      "subtopic": [
+        {
+          "nameTopic": "Вычислить определитель (3х3)",
+          "id": "f26bf9ac-89fb-4698-cd53-26ca6fc4702a",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Уравнение в определителе (3х3)",
+          "id": "3b5b6b10-c9a5-4358-0079-3e9459f53f9f",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Обратная матрица",
+      "id": "11c17e91-fa0a-4031-88df-adf86b91769c",
+      "subtopic": [
+        {
+          "nameTopic": "Обратная матрица (3х3)",
+          "id": "f1579922-863b-424f-2044-edd7c3bd437a",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Элемент обратной матрицы (3х3)",
+          "id": "b07318ac-c462-4d51-9f25-052c36eb4d3f",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Матричные уравнения",
+      "id": "86a9b695-db55-4432-68ca-63473d8154cb",
+      "subtopic": [
+        {
+          "nameTopic": "Матричное уравнение (АХ=В, 3х3)",
+          "id": "7ae48f49-aecf-4006-c95d-af63a3260eb0",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Матричное уравнение (АХВ=С, 3х3)",
+          "id": "6463aa54-da58-4751-8578-72ab9670ec74",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Системы линейных уравнений",
+      "id": "40c43e63-230e-4aaf-4c16-f1d98487178f",
+      "subtopic": [
+        {
+          "nameTopic": "СЛУ 3х3",
+          "id": "d53761d3-4270-4af4-5f21-b7caaa4efb43",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Ранг матрицы",
+      "id": "3a152022-4f43-4500-0883-a80d3d257564",
+      "subtopic": [
+        {
+          "nameTopic": "Ранг матрицы (в пределах 3х3)",
+          "id": "878f9145-3557-493a-01d3-0aa168edc6a7",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Векторы",
+      "id": "d7fb4976-be81-4996-8701-eb74b6a2f873",
+      "subtopic": [
+        {
+          "nameTopic": "Вычислить скалярное произведение векторов",
+          "id": "0afd0412-e7ac-4366-6758-d57a0727fb38",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Вычислить векторное произведение векторов",
+          "id": "aa371420-8767-4dd4-1713-2968822580b0",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Вычислить модуль векторного произведения",
+          "id": "6c94bbe5-2391-46dd-66ee-68ed3286d073",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Вычислить смешанное произведение векторов",
+          "id": "22a73886-a42a-475c-ba43-46cd64cadef8",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Проверка коллинеарности векторов",
+          "id": "e2dc021d-13c3-4352-356b-ccfc0684238e",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Проверка компланарности векторов",
+          "id": "bb1361c9-20de-4ca7-fc2c-a2e46cf3e0e1",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Прямая на плоскости",
+      "id": "103692ae-b56c-4bba-2dae-e2702906e151",
+      "subtopic": [
+        {
+          "nameTopic": "Составить ур-е прямой через две точки",
+          "id": "028fbe81-674e-42f7-4429-2e8735af103f",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Составить ур-е прямой параллельной данной",
+          "id": "3633194e-f2f2-4289-5cc7-3596af2e843a",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Составить ур-е прямой параллельной BC",
+          "id": "bbc2550b-a179-4363-6b29-60fdd6861967",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Найти точку пересечения прямых AB и CD",
+          "id": "96217feb-6dcb-40a6-a0f3-4ce85edaba58",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Определить расстояние от точки до прямой",
+          "id": "63a8bb97-df60-4a65-2062-6e6b17113823",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "title": "Плоскость в пространстве",
+      "id": "",
+      "subtopic": [
+        {
+          "nameTopic": "Составить ур-е плоскости по 3м точкам (определитель)",
+          "id": "a77e11e8-3878-420e-c5ca-a94f135125b1",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Составить ур-е плоскости по нормали и точке",
+          "id": "70884c1d-a4f2-4494-a57c-81c5f5316820",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Составить ур-е параллельной плоскости (нормаль и точка)",
+          "id": "8150ac16-a038-472c-cbdd-be140eca3a41",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Составить ур-е плоскости (2 точки) перпендикулярной данной (точка и нормаль)",
+          "id": "928326d2-ab2e-45de-2687-a2d0b6a05134",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Проекция точки на прямую NM",
+          "id": "53cbcc0e-fb86-4d14-08f2-7b2eeb658bac",
+          "isVisible": false,
+          "count": 1
+        },
+        {
+          "nameTopic": "Проекция точки на плоскость (точка и нормаль)",
+          "id": "72f81825-df95-4c7d-8b43-0b0a8995f037",
+          "isVisible": false,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
