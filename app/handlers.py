@@ -14,6 +14,11 @@ import random
 router = Router()
 
 
+# Определение состояний
+
+class FormStates(StatesGroup):
+    waiting_for_answer = State()
+
 #Обработка матрицы
 def format_matrix(matrix):
     return '\n'.join(['\t'.join(map(str, row)) for row in matrix])
@@ -35,10 +40,6 @@ def escape_markdown(text):
         text = text.replace(char, f'\\{char}')  # Экранируем каждый специальный символ
     return text
 
-# Определение состояний
-
-class FormStates(StatesGroup):
-    waiting_for_answer = State()
 
 # Обработчик команды /start
 @router.message(Command('start'))
@@ -106,24 +107,6 @@ async def topic_matrix(message: Message):
 @router.message(F.text == 'Плоскость в пространстве')
 async def topic_matrix(message: Message):
     await message.reply('Давай подберем тебе задачи по теме "Плоскость в пространстве"', reply_markup=reply_keyboard_subtopic_straight_line_in_space)
-
-
-
-@router.message(FormStates.waiting_for_answer)
-async def check_test_answer(message: Message, state: FSMContext):
-    user_data = await state.get_data()
-    correct_answers = user_data.get('correct_answers', [])  # Получаем список правильных ответов
-
-    user_answer = message.text.strip()
-    
-    if user_answer in correct_answers:
-        await message.reply("Верно!")
-    else:
-        await message.reply("Неверно. Попробуйте снова.")
-    
-    # Завершение состояния после проверки
-    await state.set_state(None)
-
 
 def escape_markdown(text: str) -> str:
     # Экранирование специальных символов MarkdownV2
